@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Obchod</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+  	<h1 class="animated-text">OBCHOD S TRICKAMI</h1>
+  </header>
+  <nav>
+  	<a href="index.html">Home</a> <a href="video.html">Video</a> <a href="obchod.html">Obchod</a> <a href="kontakt.html">Kontakt</a>
+  </nav>
+  <main>
+  	<table>
+	<tr>
+	<th id="tovar">tovar</th>
+	<th id="cena">cena</th>
+	<th id="foto">foto</th>
+	</tr>
+	<tr>
+	<td><span class="nazov">NIRVANA</span><br>
+	Velmi pekne tricko ktore som navrhol ako podakovanie kapele nirvana a filmovej sage sam doma. na zaklade tychto kulturnych velediel som si postavil celu osobnost dakujem vam  velmi pekne dovidenia a vsetko dobre. a kupte si to ak chcete podporit mna ako fanusika.</td>
+	<td class="cena">10-tisic &euro;</td>
+	<td class="foto"><img src="obrazky/tricko1.jpg" width="94" alt="pracka Beko"></td>
+	</tr>
+	<tr>
+	<td><span class="nazov">KOSTLIVEC V CIAPKE</span><br>
+	Uz ako maly chalan som sa bal kosti zostalo mi to dodnes preto predavam tricka s motivom kostlivca v ciapke aby aj ty z nas co sa boja kosti mohli nosit tricka s nimi. kreslil som to skoro sam tak dufam ze si to kupite a ja zarobim peniaze a budem ich moct utratit.</td>
+	<td class="cena">17,24 &euro;</td>
+	<td class="foto"><img src="obrazky/tricko2.jpg" width="120" alt="vysávač ETA"></td>
+	</tr>
+	<tr>
+	<td><span class="nazov">MALY PANDRLACI</span><br>
+	Toto je tricko s malimi pajacmi alebo inak povedane aj s malimi pandrlakmi su to taky maly smiesny pandrlaci robia rozne veci aha tamten sa snazi biciklovat a tento robi hahahaha nejake uplne ine veci no je to jednoducho celkom sranda takze kupujte ja budem predavat.</td>
+	<td class="cena">100 &euro;</td>
+	<td class="foto"><img src="obrazky/tricko3.jpg" width="120" alt="mikrovlnka Sencor"></td>
+	</tr>
+	</table>
+	
+	<form method="post">
+		<h2>Objednávka</h2>
+
+		<label for="produkt">Vyber produkt:</label><br>
+		<select id="produkt" name="produkt" required>
+			<option value="">-- vyber --</option>
+			<option value="nirvana">NIRVANA</option>
+			<option value="kostlivec">KOSTLIVEC V CIAPKE</option>
+			<option value="pandrlak">MALY PANDRLACI</option>
+		</select>
+		<br><br>
+
+		<label for="email">Email:</label><br>
+		<input type="email" id="email" name="email" required>
+		<br><br>
+
+		<label for="pocet">Počet kusov:</label><br>
+		<input type="number" id="pocet" name="pocet" min="1" value="1">
+		<br><br>
+
+		<input type="submit" value="Objednať">
+	</form>
+	
+  </main>
+</body>
+</html>
+
