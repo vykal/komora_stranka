@@ -109,16 +109,11 @@ main .pic{
 	color: black;
 }
 
-.ad-main{
-	font-size: 26px;
-	color: black;
-	font-weight: bold;
-}
 .fake-ad img{
 	height: 200px;
 
 }
-.ad-sub{
+.ad-napis{
 	font-size: 18px;
 	color: black;
 	background-color: yellow;
