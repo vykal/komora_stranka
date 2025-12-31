@@ -1,0 +1,15 @@
+header
+
+nav
+
+main
+
+div.txt
+
+div.pic
+
+div.fake-ad
+
+form
+
+footer
